@@ -34,8 +34,8 @@ function Slider() {
                     </div>
                 </div>
                 <div className="text-box">
-                    <h1>Best Quality Steel For Construction</h1>
-                    <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut imperdiet eu, iaculis a sem.</p>
+                    <h1 className="text-white">Best quality work for your construction.</h1>
+                    <p>We always take care of my customer's demand, what they need, what they want.</p>
                     <a href="#" className="button">WORK WITH US</a>
                 </div>
             </div>

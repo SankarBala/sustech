@@ -21,11 +21,11 @@ function Home() {
             <Work />
             <Projects />
             <Blog />
-            <Price />
-            <Idea />
-            <Team />
-            <Project />
-            <News />
+            {/* <Price /> */}
+            {/* <Idea /> */}
+            {/* <Team /> */}
+            {/* <Project /> */}
+            {/* <News /> */}
             <Footer />
         </>
     );

@@ -672,7 +672,7 @@ section {
 .projects {
 	background: linear-gradient(#00000096, #000000b0),
 		url(./../images/house.jpg);
-	padding: 50px 150px;
+	padding: 50px 50px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	object-fit: cover;
@@ -684,7 +684,7 @@ section {
 		justify-content: center;
 
 		.card {
-			width: 209px;
+			width: 250px;
 			margin: 20px;
 
 			.icon {
@@ -1035,7 +1035,7 @@ section.team-intro {
 
 .project {
 	padding: 50px 180px;
-	background: #ddd;
+	background: #ffffff;
 
 	.content {
 		display: flex;
