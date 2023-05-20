@@ -4,46 +4,48 @@ function Services() {
     return (
         <section className="services">
             <div className="content ">
+
                 <div className="card reveal">
                     <div className="service-icon">
-                        <i className="fas fa-people-carry" />
+                        <i class="fas fa-charging-station" />
                     </div>
                     <div className="service-info">
-                        <h3>ARCHITECTURE AND ENGINEER</h3>
+                        <h4>ELECTROMECHANICAL EQUIPMENT</h4>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
                 <div className="card card-second reveal">
                     <div className="service-icon">
-                        <i className="fas fa-sitemap" />
+                        <i className="fas fa-building" />
                     </div>
                     <div className="service-info">
-                        <h3>CONSULTANT AND PREPARATION</h3>
+                        <h4>BUILDING CONSTRUCTION & MAINTAIN</h4>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
                 <div className="card reveal">
                     <div className="service-icon">
-                        <i className="fas fa-tools" />
+                        <i class="fas fa-sleigh" />
                     </div>
                     <div className="service-info">
-                        <h3>INFRASTUCTURE AND CUSTOMIZING</h3>
+                        <h4>PLUMBING & SANITARY SERVICES</h4>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
                 <div className="card reveal">
                     <div className="service-icon">
-                        <i className="fas fa-hard-hat" />
+                        <i class="fas fa-person-booth" />
                     </div>
                     <div className="service-info">
-                        <h3>BUILDER WITH ENGINEERING</h3>
+                        <h4>CARPENTRY & FLOORING SERVICES</h4>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
+
             </div>
         </section>
     )

@@ -100,6 +100,7 @@ header {
 		padding: 0;
 		transition: background .5s ease;
 		padding: 0 120px;
+		background-color: #075b72;
 
 		.col-right {
 			padding: 15px;
@@ -461,8 +462,8 @@ section {
 }
 
 .services {
-	padding: 50PX 200px;
-	background: #ddd;
+	padding: 100PX 20px;
+	background-color: #f7f7f7;
 
 	.content {
 		display: flex;
@@ -471,18 +472,18 @@ section {
 		justify-content: center;
 
 		.card {
-			width: 166px;
-			padding: 20px;
+			width: 280px;
+			padding: 8px;
 			background: #fff;
 			border-radius: 3px;
-			box-shadow: 0px 0px 36px -6px rgb(255 59 0 / 60%);
-			margin: 15px;
+			box-shadow: 0px 0px 70px -20px rgba(4, 107, 175, 0.6);
+			margin: 10px;
 			transition: .4s ease;
 			cursor: pointer;
+			text-align: center;
 
 			&:hover {
-				background: linear-gradient(skyblue, #ff3b00);
-				box-shadow: 0px 0px 120px -20px rgb(255 255 0 / 60%);
+				background: linear-gradient(skyblue, #0878ac);
 
 				.service-icon {
 					color: $color_7;
@@ -548,16 +549,12 @@ section {
 		}
 
 		.card-second {
-			width: 166px;
-			padding: 20px;
-			background: linear-gradient(skyblue, #ff3b00);
+			background: linear-gradient(skyblue, #0878ac);
 			border-radius: 3px;
-			box-shadow: 0px 0px 36px -6px rgb(255 59 0 / 60%);
-			margin: 15px;
 
 			.service-icon {
 				font-size: 50px;
-				color: $color_4;
+				color: $color_10;
 				text-align: center;
 			}
 
@@ -611,7 +608,7 @@ section {
 		.col-left {
 			width: 400px;
 			height: 100%;
-			overflow: hidden;
+			// overflow: hidden;
 			margin-right: 11px;
 
 			img {
@@ -673,7 +670,8 @@ section {
 }
 
 .projects {
-	background: linear-gradient(#00000096, #000000b0), url(./../images/pexels-burst-544971.jpg);
+	background: linear-gradient(#00000096, #000000b0),
+		url(./../images/house.jpg);
 	padding: 50px 150px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1223,7 +1221,7 @@ footer {
 		}
 
 		.contact-us {
-			width: 250px;
+			width: 300px;
 			padding: 20px;
 			margin: 10px;
 
@@ -1287,7 +1285,7 @@ footer {
 		}
 
 		.recent-post {
-			width: 250px;
+			width: 450px;
 			padding: 20px;
 			margin: 10px;
 
@@ -1362,8 +1360,8 @@ footer {
 
 .reveal {
 	position: relative;
-	transform: translateY(150px);
-	opacity: 0;
+	// transform: translateY(150px);
+	// opacity: 0;
 	transition-timing-function: ease;
 	transition: all 1s;
 }
@@ -1375,8 +1373,8 @@ footer {
 
 .revealLeft {
 	position: relative;
-	transform: translateX(-150px);
-	opacity: 0;
+	// transform: translateX(-150px);
+	// opacity: 0;
 	transition-timing-function: ease;
 	transition: all 1s;
 }
@@ -1388,8 +1386,8 @@ footer {
 
 .revealRight {
 	position: relative;
-	transform: translateX(150px);
-	opacity: 0;
+	// transform: translateX(150px);
+	// opacity: 0;
 	transition-timing-function: ease;
 	transition: all 1s;
 }
@@ -1399,9 +1397,9 @@ footer {
 	opacity: 1;
 }
 
-.content {
-	overflow: hidden;
-}
+// .content {
+// 	overflow: hidden;
+// }
 
 .to-top {
 	background: #2b2b2b;

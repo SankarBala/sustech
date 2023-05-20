@@ -1,5 +1,7 @@
 import React from 'react'
-import Banner from './../images/banner.jpeg';
+import Banner1 from './../images/banner_1.jpeg';
+import Banner2 from './../images/banner_2.jpeg';
+import Banner3 from './../images/banner_3.jpeg';
 
 function Slider() {
     return (
@@ -10,30 +12,24 @@ function Slider() {
                         <input type="radio" name="radio" id="radio1" />
                         <input type="radio" name="radio" id="radio2" />
                         <input type="radio" name="radio" id="radio3" />
-                        <input type="radio" name="radio" id="radio4" />
                         <div className="slide first">
-                            {/* <img src={Banner} /> */}
+                            <img src={Banner1} />
                         </div>
                         <div className="slide">
-                            <img src="images/2.jpg" />
+                            <img src={Banner2} />
                         </div>
                         <div className="slide">
-                            <img src="images/3.jpg" />
-                        </div>
-                        <div className="slide">
-                            <img src="images/4.jpg" />
+                            <img src={Banner3} />
                         </div>
                         <div className="navigation-auto">
                             <div className="auto-btn1" />
                             <div className="auto-btn2" />
                             <div className="auto-btn3" />
-                            <div className="auto-btn4" />
                         </div>
                         <div className="navigation-manual">
                             <label htmlFor="radio1" className="manual-btn" />
                             <label htmlFor="radio2" className="manual-btn" />
                             <label htmlFor="radio3" className="manual-btn" />
-                            <label htmlFor="radio4" className="manual-btn" />
                         </div>
                     </div>
                 </div>

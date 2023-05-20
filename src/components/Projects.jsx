@@ -9,7 +9,7 @@ function Projects() {
                         <i className="fas fa-users-cog" />
                     </div>
                     <div className="info">
-                        <h3>1200</h3>
+                        <h3>400</h3>
                         <span>HAPINESS CUSTOMERS</span>
                     </div>
                 </div>
@@ -18,7 +18,7 @@ function Projects() {
                         <i className="fas fa-file-signature" />
                     </div>
                     <div className="info">
-                        <h3>2080</h3>
+                        <h3>700</h3>
                         <span>PROJECTS COMPLETED </span>
                     </div>
                 </div>
@@ -27,8 +27,8 @@ function Projects() {
                         <i className="fas fa-code-branch" />
                     </div>
                     <div className="info">
-                        <h3>4000</h3>
-                        <span>WORLD BRANCHES</span>
+                        <h3>DUBAI</h3>
+                        <span>SERVICE PROVIDE</span>
                     </div>
                 </div>
                 <div className="card">

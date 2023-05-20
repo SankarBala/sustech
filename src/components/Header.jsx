@@ -1,14 +1,14 @@
 import React from 'react';
-import Logo from './../images/logo.jpg';
+import Logo from './../images/logo.png';
 
 function Header() {
     return (
         <header>
-            <div className="content bg-primary">
+            <div className="content">
                 <div className="primary-menu">
                     <div className="column col-left">
                         <a href="tel:01993-761712">
-                            <span><i className="fas fa-phone" />01993-761712</span>
+                            <span><i className="fas fa-phone" />04 347 5767</span>
                         </a>
                         <span><i className="fas fa-envelope" />Email: mdshifuddin@yahoo.com</span>
                     </div>
@@ -20,10 +20,10 @@ function Header() {
                 </div>
                 <div className="main-header">
                     <div className="column col-left">
-                        <img src={Logo} alt="logo" height="100px" />
+                        <img src={Logo} alt="logo" height="70px" />
                     </div>
                     <div className="menu-btn" />
-                    <div className="column col-right menu py-5 text-info">
+                    <div className="column col-right menu py-4 text-info">
                         <a href="#" className="">Home</a>
                         <a href="#" className="">Service</a>
                         <a href="#" className="">Prices</a>

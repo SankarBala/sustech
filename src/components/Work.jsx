@@ -1,17 +1,19 @@
-import React from 'react'
+import React from 'react';
+import WorkImage from './../images/work.jpeg';
 
 function Work() {
     return (
         <section className="work">
             <div className="content">
-                <div className="column col-left revealLeft">
-                    <img src="images/pexels-pixabay-159306.jpg" alt />
+                <div className="column col-left p-2 revealLeft">
+                    <img src={WorkImage} alt="working" />
                 </div>
-                <div className="column col-right revealRight">
-                    <h3>WORK WITH OUR TEAMS</h3>
-                    <p>Mauris mattis auctor cursus. Phasellus tellus tellus imperdiet ut.Mauris mattis auctor cursus.
-                        Phasellus tellus tellus ,imperdiet ut Mauris mattis auctor cursus. Phasellus tellus tellus imperdiet
-                        ut.Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
+                <div className="column col-right px-4 revealRight">
+                    <h4>WORK WITH OUR TEAMS</h4>
+                    <p>
+
+
+                    </p>
                     <ul>
                         <li><i className="fas fa-chevron-right" />Building Quality</li>
                         <li><i className="fas fa-chevron-right" />Honest Advisor</li>

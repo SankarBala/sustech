@@ -7,8 +7,9 @@ function Footer() {
                 <div className="content">
                     <div className="about-us">
                         <h3 className="footer-h3">ABOUT US</h3>
-                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus imperdiet ut.Mauris mattis auctor cursus.
-                            Phasellus tellus tellus , imperdiet eu</p>
+                        <p>
+                            Our company serving since 10 years successfully.
+                        </p>
                         <div className="icon">
                             <a href="#"><i className="fab fa-facebook-f" /></a>
                             <a href="#"><i className="fab fa-twitter" /></a>
@@ -20,39 +21,55 @@ function Footer() {
                         <h3 className="footer-h3">CONTACT US</h3>
                         <div className="contacts">
                             <i className="fas fa-home" />
-                            <span>Raffles avenue,Singapore <br /> Flyer,Singapore</span>
+                            <span>
+                                Eternity Hub Building <br />
+                                Murar Jadeed 1 Bus Stop <br />
+                                Omar Bin Al Khattab, Dubai <br />
+                                Near-Al Khaleej St <br />
+                            </span>
                         </div>
                         <div className="contacts">
-                            <i className="fas fa-phone-alt" style={{ fontSize: 23 }} />
-                            <span>+(98) 888 7777 <br /> +(12) 999 22333</span>
+                            <i className="fas fa-phone-alt mr-3" />
+                            <span>
+                                052-6147976
+                                <br />
+                                054-7457121
+                            </span>
                         </div>
                         <div className="contacts">
                             <i className="fas fa-envelope" />
-                            <span style={{ fontSize: 12 }}>Sample-email@example.com<br /> myinfo@gmail.com</span>
+                            <span style={{ fontSize: 12 }}>
+                                mdshifuddin@yahoo.com
+                                <br />
+                                shif2066@gmail.com
+                            </span>
                         </div>
                     </div>
-                    <div className="useful-links">
+                    {/* <div className="useful-links">
                         <h3 className="footer-h3">USEFUL LINKS</h3>
                         <ul>
                             <li><i className="fas fa-chevron-right" />Home</li>
                             <li><i className="fas fa-chevron-right" />Services</li>
                             <li><i className="fas fa-chevron-right" />About us</li>
                         </ul>
-                    </div>
+                    </div> */}
                     <div className="recent-post">
-                        <h3 className="footer-h3">REcent post</h3>
+                        <h3 className="footer-h3">LOCATION</h3>
                         <div className="info">
-                            <h3>07 <br /> march <br /> 2021</h3>
-                            <h2>WHERE WE'RE STANDING RIGHT NOW</h2>
-                            <span><i className="fas fa-user" />By Admin</span><span><i className="fas fa-comments" />28</span>
-                        </div>
-                        <div className="info">
-                            <h3>07 <br /> march <br /> 2021</h3>
-                            <h2>WHERE WE'RE STANDING RIGHT NOW</h2>
-                            <span><i className="fas fa-user" />By Admin</span><span><i className="fas fa-comments" />28</span>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.880371990359!2d55.31221302820403!3d25.27863270112727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43e2ea2a101b%3A0x8370eb4124a21fab!2sEternity%20Hub!5e0!3m2!1sen!2sbd!4v1684563676002!5m2!1sen!2sbd"
+                                width={480}
+                                height={240}
+                                style={{ border: 0 }}
+                                allowFullScreen loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            />
                         </div>
                     </div>
                 </div>
+
+
+
+
                 <a href="#" className="to-top">
                     <i className="fas fa-arrow-up" />
                 </a>
@@ -68,155 +85,7 @@ function Footer() {
                     </div>
                 </div>
             </footer>
-
-            <footer className="bg-dark text-center text-white">
-                {/* Grid container */}
-                <div className="container p-4">
-                    {/* Section: Social media */}
-                    <section className="mb-4">
-                        {/* Facebook */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i className="fab fa-facebook-f" /></a>
-                        {/* Twitter */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i className="fab fa-twitter" /></a>
-                        {/* Google */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i className="fab fa-google" /></a>
-                        {/* Instagram */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i className="fab fa-instagram" /></a>
-                        {/* Linkedin */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i className="fab fa-linkedin-in" /></a>
-                        {/* Github */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i className="fab fa-github" /></a>
-                    </section>
-                    {/* Section: Social media */}
-                    {/* Section: Form */}
-                    <section className>
-                        <form action>
-                            {/*Grid row*/}
-                            <div className="row d-flex justify-content-center">
-                                {/*Grid column*/}
-                                <div className="col-auto">
-                                    <p className="pt-2">
-                                        <strong>Sign up for our newsletter</strong>
-                                    </p>
-                                </div>
-                                {/*Grid column*/}
-                                {/*Grid column*/}
-                                <div className="col-md-5 col-12">
-                                    {/* Email input */}
-                                    <div className="form-outline form-white mb-4">
-                                        <input type="email" id="form5Example24" className="form-control" />
-                                        <label className="form-label" htmlFor="form5Example24" style={{ marginLeft: 0 }}>Email address</label>
-                                        <div className="form-notch"><div className="form-notch-leading" style={{ width: 9 }} /><div className="form-notch-middle" style={{ width: '88.8px' }} /><div className="form-notch-trailing" /></div></div>
-                                </div>
-                                {/*Grid column*/}
-                                {/*Grid column*/}
-                                <div className="col-auto">
-                                    {/* Submit button */}
-                                    <button type="submit" className="btn btn-outline-light mb-4">
-                                        Subscribe
-                                    </button>
-                                </div>
-                                {/*Grid column*/}
-                            </div>
-                            {/*Grid row*/}
-                        </form>
-                    </section>
-                    {/* Section: Form */}
-                    {/* Section: Text */}
-                    <section className="mb-4">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
-                            harum corrupti dicta, aliquam sequi voluptate quas.
-                        </p>
-                    </section>
-                    {/* Section: Text */}
-                    {/* Section: Links */}
-                    <section className>
-                        {/*Grid row*/}
-                        <div className="row">
-                            {/*Grid column*/}
-                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Links</h5>
-                                <ul className="list-unstyled mb-0">
-                                    <li>
-                                        <a href="#!" className="text-white">Link 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Links</h5>
-                                <ul className="list-unstyled mb-0">
-                                    <li>
-                                        <a href="#!" className="text-white">Link 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Links</h5>
-                                <ul className="list-unstyled mb-0">
-                                    <li>
-                                        <a href="#!" className="text-white">Link 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Links</h5>
-                                <ul className="list-unstyled mb-0">
-                                    <li>
-                                        <a href="#!" className="text-white">Link 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                    © 2020 Copyright: 
-                    <a className="text-white" href="https://mdbootstrap.com/">  yoursite.com</a>
-                </div>
-            </footer>
-
-
-
         </>
-
     )
 }
 
