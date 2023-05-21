@@ -1433,3 +1433,34 @@ footer {
 	pointer-events: auto;
 	opacity: 1;
 }
+
+
+.contact-us {
+	width: 300px;
+	padding: 20px;
+	margin: 10px;
+	font-size: large;
+
+	.contacts {
+		margin-bottom: 10px;
+		width: 250px;
+		display: flex;
+		align-items: center;
+
+		i {
+			font-size: 26px;
+			color: $color_1;
+			float: left;
+		}
+	}
+
+	span {
+		font-family: $font-family_2;
+		font-size: 13px;
+		display: flex;
+		color: $color_4;
+		line-height: 20px;
+		margin-left: 10px;
+		letter-spacing: 1px;
+	}
+}
