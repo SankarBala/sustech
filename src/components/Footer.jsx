@@ -77,6 +77,7 @@ function Footer() {
             <a href="#" className="to-top">
                 <i className="fas fa-arrow-up" />
             </a>
+            
             <div className="copyright">
                 <div className="col-left">
                     <h3>&copy; {new Date().getFullYear()} | All right reserved.</h3>

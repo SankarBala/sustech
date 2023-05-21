@@ -1,20 +1,58 @@
-import React from 'react'
-import Banner1 from './../images/banner_1.jpeg';
-import Banner2 from './../images/banner_2.jpeg';
-import Banner3 from './../images/banner_3.jpeg';
+import React, { useState, useEffect } from "react";
+import Banner1 from "./../images/banner_1.jpeg";
+import Banner2 from "./../images/banner_2.jpeg";
+import Banner3 from "./../images/banner_3.jpeg";
 
-function Slider() {
+
+
+
+const Slider = () => {
+
+    const [activeSlide, setActiveSlide] = useState("radio1");
+
+    useEffect(() => {
+
+        var counter = 1;
+        setInterval(function () {
+            setActiveSlide(`radio${counter}`);
+            counter++;
+            if (counter > 3) {
+                counter = 1;
+            }
+        }, 5000);
+    }, []);
+
+
     return (
         <section className="image-slider">
             <div className="content">
                 <div className="slider">
                     <div className="slides">
-                        <input type="radio" name="radio" id="radio1" />
-                        <input type="radio" name="radio" id="radio2" />
-                        <input type="radio" name="radio" id="radio3" />
+                        <input
+                            type="radio"
+                            name="activeSlide"
+                            id="radio1"
+                            onChange={(slide) => setActiveSlide(slide.target.id)}
+                            checked={activeSlide == "radio1"}
+                        />
+                        <input
+                            type="radio"
+                            name="activeSlide"
+                            id="radio2"
+                            onChange={(slide) => setActiveSlide(slide.target.id)}
+                            checked={activeSlide == "radio2"}
+                        />
+                        <input
+                            type="radio"
+                            name="activeSlide"
+                            id="radio3"
+                            onChange={(slide) => setActiveSlide(slide.target.id)}
+                            checked={activeSlide == "radio3"}
+                        />
                         <div className="slide first">
                             <img src={Banner1} />
                         </div>
+
                         <div className="slide">
                             <img src={Banner2} />
                         </div>
@@ -34,13 +72,20 @@ function Slider() {
                     </div>
                 </div>
                 <div className="text-box">
-                    <h1 className="text-white">Best quality work for your construction.</h1>
-                    <p>We always take care of my customer's demand, what they need, what they want.</p>
-                    <a href="#" className="button">WORK WITH US</a>
+                    <h1 className="text-white">
+                        Best quality work for your construction.
+                    </h1>
+                    <p>
+                        We always take care of my customer's demand, what they need, what
+                        they want.
+                    </p>
+                    <a href="#" className="button">
+                        WORK WITH US
+                    </a>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Slider
+export default Slider;

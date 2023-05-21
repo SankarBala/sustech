@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Logo from './../images/logo.png';
 
 function Header() {
@@ -24,11 +25,12 @@ function Header() {
                     </div>
                     <div className="menu-btn" />
                     <div className="column col-right menu py-4 text-info">
-                        <a href="#" className="">Home</a>
-                        <a href="#" className="">Service</a>
-                        <a href="#" className="">Prices</a>
-                        <a href="#" className="">Contact Us</a>
-                        <a href="#" className="">About Us</a>
+
+                        <NavLink to="/" className="">Home</NavLink>
+                        <NavLink to="/service" className="">Service</NavLink>
+                        <NavLink to="/contact" className="">Contact</NavLink>
+                        <NavLink to="/about" className="">About</NavLink>
+
                         <form action="#" className="search-box">
                             <input type="text" placeholder="search" />
                             <button className="search-btn" type="button" name="button">

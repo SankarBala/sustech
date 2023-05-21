@@ -7,7 +7,7 @@ function Services() {
 
                 <div className="card reveal">
                     <div className="service-icon">
-                        <i class="fas fa-charging-station" />
+                        <i className="fas fa-charging-station" />
                     </div>
                     <div className="service-info">
                         <h4>ELECTROMECHANICAL EQUIPMENT</h4>
@@ -27,7 +27,7 @@ function Services() {
                 </div>
                 <div className="card reveal">
                     <div className="service-icon">
-                        <i class="fas fa-sleigh" />
+                        <i className="fas fa-sleigh" />
                     </div>
                     <div className="service-info">
                         <h4>PLUMBING & SANITARY SERVICES</h4>
@@ -37,7 +37,7 @@ function Services() {
                 </div>
                 <div className="card reveal">
                     <div className="service-icon">
-                        <i class="fas fa-person-booth" />
+                        <i className="fas fa-person-booth" />
                     </div>
                     <div className="service-info">
                         <h4>CARPENTRY & FLOORING SERVICES</h4>
