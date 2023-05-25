@@ -120,6 +120,10 @@ header {
 				}
 			}
 
+			a.active {
+				color: $color_10;
+			}
+
 			i {
 				font-size: 12px;
 				padding-left: 6px;
@@ -419,10 +423,11 @@ section {
 			padding: 51px 50px;
 			border-radius: 10px;
 			transition: .2s ease;
+			background: #00000080;
 
 			&:hover {
-				backdrop-filter: blur(2px);
-				background: linear-gradient(#55545487, #63626266);
+				backdrop-filter: blur(100px);
+				background: #000000;
 			}
 
 			h1 {
@@ -462,7 +467,7 @@ section {
 }
 
 .services {
-	padding: 100PX 20px;
+	padding: 100PX 10px;
 	background-color: #f7f7f7;
 
 	.content {
@@ -472,7 +477,7 @@ section {
 		justify-content: center;
 
 		.card {
-			width: 280px;
+			width: 200px;
 			padding: 8px;
 			background: #fff;
 			border-radius: 3px;
@@ -502,6 +507,10 @@ section {
 						color: $color_10;
 					}
 				}
+			}
+
+			h5 {
+				height: 70px;
 			}
 
 			.service-icon {

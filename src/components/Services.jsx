@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Services() {
     return (
@@ -10,9 +12,9 @@ function Services() {
                         <i className="fas fa-charging-station" />
                     </div>
                     <div className="service-info">
-                        <h4>ELECTROMECHANICAL EQUIPMENT</h4>
+                        <h5>ELECTRO MECHANICAL EQUIPMENT</h5>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
-                        <a href="#">Learn more</a>
+                        <Link to="/service">All Services</Link>
                     </div>
                 </div>
                 <div className="card card-second reveal">
@@ -20,9 +22,9 @@ function Services() {
                         <i className="fas fa-building" />
                     </div>
                     <div className="service-info">
-                        <h4>BUILDING CONSTRUCTION & MAINTAIN</h4>
+                        <h5>BUILDING CONSTRUCTION & MAINTAIN</h5>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
-                        <a href="#">Learn more</a>
+                        <Link to="/service">All Services</Link>
                     </div>
                 </div>
                 <div className="card reveal">
@@ -30,9 +32,9 @@ function Services() {
                         <i className="fas fa-sleigh" />
                     </div>
                     <div className="service-info">
-                        <h4>PLUMBING & SANITARY SERVICES</h4>
+                        <h5>PLUMBING & SANITARY SERVICES</h5>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
-                        <a href="#">Learn more</a>
+                        <Link to="/service">All Services</Link>
                     </div>
                 </div>
                 <div className="card reveal">
@@ -40,11 +42,34 @@ function Services() {
                         <i className="fas fa-person-booth" />
                     </div>
                     <div className="service-info">
-                        <h4>CARPENTRY & FLOORING SERVICES</h4>
+                        <h5>CARPENTRY & FLOORING SERVICES</h5>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
-                        <a href="#">Learn more</a>
+                        <Link to="/service">All Services</Link>
                     </div>
                 </div>
+
+
+                <div className="card reveal">
+                    <div className="service-icon">
+                        <i className="fas fa-person-booth" />
+                    </div>
+                    <div className="service-info">
+                        <h5>FLOOR AND WALL TILING</h5>
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
+                        <Link to="/service">All Services</Link>
+                    </div>
+                </div>
+                <div className="card reveal">
+                    <div className="service-icon">
+                        <i className="fas fa-person-booth" />
+                    </div>
+                    <div className="service-info">
+                        <h5>PAINTING CONTRACTING</h5>
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
+                        <Link to="/service">All Services</Link>
+                    </div>
+                </div>
+
 
             </div>
         </section>

@@ -77,7 +77,7 @@ function Footer() {
             <a href="#" className="to-top">
                 <i className="fas fa-arrow-up" />
             </a>
-            
+
             <div className="copyright">
                 <div className="col-left">
                     <h3>&copy; {new Date().getFullYear()} | All right reserved.</h3>
@@ -89,8 +89,7 @@ function Footer() {
                             className="text-info"
                             target="_blank"
                             href="https://sankarbala.github.io/"
-                        >
-                            Sankar Bala
+                        >Sankar Bala
                         </a>
                     </span>
                 </div>

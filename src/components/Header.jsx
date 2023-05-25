@@ -26,7 +26,7 @@ function Header() {
                     <div className="menu-btn" />
                     <div className="column col-right menu py-4 text-info">
 
-                        <NavLink to="/" className="">Home</NavLink>
+                        <NavLink to="/" exact className="">Home</NavLink>
                         <NavLink to="/service" className="">Service</NavLink>
                         <NavLink to="/contact" className="">Contact</NavLink>
                         <NavLink to="/about" className="">About</NavLink>

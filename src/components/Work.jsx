@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import WorkImage from './../images/work.jpeg';
 
 function Work() {
@@ -22,7 +23,7 @@ function Work() {
                         <li><i className="fas fa-chevron-right" />Work Solution</li>
                         <li><i className="fas fa-chevron-right" />Work and Deadline </li>
                     </ul>
-                    <a href="#" className="button">GET START</a>
+                    <Link to="/contact" className="button">GET START</Link>
                 </div>
             </div>
         </section>
