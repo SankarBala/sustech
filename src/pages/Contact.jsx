@@ -1,12 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import BestProject from "./../images/house2.jpg";
+import { api } from "./../config.js";
 
 const Contact = () => {
+  const [query, setQuery] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+    response: "",
+  });
+
+  const handleInput = (action) => {
+    setQuery({
+      ...query,
+      response: "",
+      [action.target.name]: action.target.value,
+    });
+  };
+
+  const submitForm = () => {
+    fetch(`${api}/queries`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(query),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setQuery({
+          ...query,
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+          response: data.message,
+        });
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
   return (
     <div>
       <div className="container-contact100 my-3">
-     
-
         <div className="wrap-contact100">
           <form className="contact100-form validate-form">
             <span className="contact100-form-title">SEND US A MESSAGE</span>
@@ -18,17 +58,19 @@ const Contact = () => {
               data-validate="Type your name"
             >
               <input
-                id="first-name"
+                id="name"
                 className="input100"
                 type="text"
-                name="first-name"
+                name="name"
                 placeholder="Name"
+                onChange={(value) => handleInput(value)}
+                value={query.name}
               />
               <span className="focus-input100" />
             </div>
 
             <label className="label-input100" htmlFor="email">
-              Enter your email 
+              Enter your email
             </label>
             <div
               className="wrap-input100 validate-input"
@@ -40,10 +82,11 @@ const Contact = () => {
                 type="text"
                 name="email"
                 placeholder="Eg. example@email.com"
+                onChange={(value) => handleInput(value)}
+                value={query.email}
               />
               <span className="focus-input100" />
             </div>
-
 
             <label className="label-input100" htmlFor="phone">
               Enter phone number
@@ -55,6 +98,8 @@ const Contact = () => {
                 type="text"
                 name="phone"
                 placeholder="Eg. +1 800 000000"
+                onChange={(value) => handleInput(value)}
+                value={query.phone}
               />
               <span className="focus-input100" />
             </div>
@@ -70,12 +115,20 @@ const Contact = () => {
                 className="input100"
                 name="message"
                 placeholder="Write us a message"
-                defaultValue={""}
+                onChange={(value) => handleInput(value)}
+                value={query.message}
               />
               <span className="focus-input100" />
             </div>
+            <p>{query.response}</p>
             <div className="container-contact100-form-btn">
-              <button className="contact100-form-btn">Send Message</button>
+              <button
+                className="contact100-form-btn"
+                type="button"
+                onClick={submitForm}
+              >
+                Send Message
+              </button>
             </div>
           </form>
           <div

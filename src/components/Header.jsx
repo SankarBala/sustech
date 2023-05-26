@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from './../images/logo.png';
 
 function Header() {
@@ -21,15 +21,15 @@ function Header() {
                 </div>
                 <div className="main-header">
                     <div className="column col-left">
-                        <img src={Logo} alt="logo" height="70px" />
+                        <Link to="/">  <img src={Logo} alt="logo" height="70px" /></Link>
                     </div>
                     <div className="menu-btn" />
                     <div className="column col-right menu py-4 text-info">
 
                         <NavLink to="/" exact className="">Home</NavLink>
                         <NavLink to="/service" className="">Service</NavLink>
-                        <NavLink to="/contact" className="">Contact</NavLink>
                         <NavLink to="/about" className="">About</NavLink>
+                        <NavLink to="/contact" className="">Contact</NavLink>
 
                         <form action="#" className="search-box">
                             <input type="text" placeholder="search" />

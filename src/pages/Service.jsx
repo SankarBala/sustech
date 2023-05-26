@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from './../images/banner.jpeg';
+// import Banner from './../images/banner.jpeg';
 
 const Service = () => {
   return (
@@ -19,8 +19,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="row">
+        <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
             <div className="techno_flipbox mb-30">
               <div className="techno_flipbox_font">
@@ -31,23 +30,23 @@ const Service = () => {
                     </div>
                   </div>
                   <div className="flipbox_title">
-                    <h3>Marketing Strategy</h3>
+                    <h3> Electromechanical Equipment</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                 </div>
               </div>
               <div className="techno_flipbox_back " style={{ backgroundImage: 'url(assets/images/feature1.jpg)' }}>
                 <div className="techno_flipbox_inner">
                   <div className="flipbox_title">
-                    <h3>Free Online Course</h3>
+                    <h3>Wall Paper Fixing.</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                   <div className="flipbox_button">
-                    
+
                   </div>
                 </div>
               </div>
@@ -63,23 +62,23 @@ const Service = () => {
                     </div>
                   </div>
                   <div className="flipbox_title">
-                    <h3>Interior Design</h3>
+                    <h3>Building Cleaning Services.</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                 </div>
               </div>
               <div className="techno_flipbox_back " style={{ backgroundImage: 'url(assets/images/feature2.jpg)' }}>
                 <div className="techno_flipbox_inner">
                   <div className="flipbox_title">
-                    <h3>Interior Design</h3>
+                    <h3>Building contracing.</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                   <div className="flipbox_button">
-                    
+
                   </div>
                 </div>
               </div>
@@ -95,23 +94,23 @@ const Service = () => {
                     </div>
                   </div>
                   <div className="flipbox_title">
-                    <h3>Digital Services</h3>
+                    <h3>Painting Contracting.</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                 </div>
               </div>
               <div className="techno_flipbox_back " style={{ backgroundImage: 'url(assets/images/feature3.jpg)' }}>
                 <div className="techno_flipbox_inner">
                   <div className="flipbox_title">
-                    <h3>Online Marketing</h3>
+                    <h3>Air-Conditioning, Ventilations & Air Filtration Systems.</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                   <div className="flipbox_button">
-                    
+
                   </div>
                 </div>
               </div>
@@ -127,23 +126,23 @@ const Service = () => {
                     </div>
                   </div>
                   <div className="flipbox_title">
-                    <h3>Product Selling</h3>
+                    <h3>Installation & Maintenance</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                 </div>
               </div>
               <div className="techno_flipbox_back " style={{ backgroundImage: 'url(assets/images/feature3.jpg)' }}>
                 <div className="techno_flipbox_inner">
                   <div className="flipbox_title">
-                    <h3>Online Product</h3>
+                    <h3>Floor and wall Tiling Works</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                   <div className="flipbox_button">
-                    
+
                   </div>
                 </div>
               </div>
@@ -159,28 +158,30 @@ const Service = () => {
                     </div>
                   </div>
                   <div className="flipbox_title">
-                    <h3>Product Design</h3>
+                    <h3>Plumbing & sanitary Contracting</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                 </div>
               </div>
               <div className="techno_flipbox_back " style={{ backgroundImage: 'url(assets/images/feature1.jpg)' }}>
                 <div className="techno_flipbox_inner">
                   <div className="flipbox_title">
-                    <h3>24/7 Support</h3>
+                    <h3>Carpentry & Flooring Contracting.</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                   <div className="flipbox_button">
-                    
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+
           <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
             <div className="techno_flipbox mb-30">
               <div className="techno_flipbox_font">
@@ -191,31 +192,31 @@ const Service = () => {
                     </div>
                   </div>
                   <div className="flipbox_title">
-                    <h3>Digital Services</h3>
+                    <h3>24x7 Hours Customer Services.</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                 </div>
               </div>
               <div className="techno_flipbox_back " style={{ backgroundImage: 'url(assets/images/feature2.jpg)' }}>
                 <div className="techno_flipbox_inner">
                   <div className="flipbox_title">
-                    <h3>Social Marketing</h3>
+                    <h3>Guidence Customers.</h3>
                   </div>
                   <div className="flipbox_desc">
-                    <p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p>
+                    <p><br /></p>
                   </div>
                   <div className="flipbox_button">
-                    
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        <img src={Banner} alt="Your Image" className="img-fluid my-2" />
+        {/* <img src={Banner} alt="Your Image" className="img-fluid my-2" /> */}
 
 
       </div>
