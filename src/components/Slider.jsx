@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import Banner1 from "./../images/banner_1.jpeg";
 import Banner2 from "./../images/banner_2.jpeg";
 import Banner3 from "./../images/banner_3.jpeg";
@@ -79,9 +80,9 @@ const Slider = () => {
                         We always take care of my customer's demand, what they need, what
                         they want.
                     </p>
-                    <a href="#" className="button">
-                        WORK WITH US
-                    </a>
+                    <Link to="/contact" className="button">
+                        CONTACT US
+                    </Link>
                 </div>
             </div>
         </section>

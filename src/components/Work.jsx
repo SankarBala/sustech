@@ -6,24 +6,27 @@ function Work() {
     return (
         <section className="work">
             <div className="content">
-                <div className="column col-left p-2 revealLeft">
+                <div className=" col-left p-2 revealLeft">
                     <img src={WorkImage} alt="working" />
                 </div>
-                <div className="column col-right px-4 revealRight">
+                <div className="col-right px-4 ">
                     <h4>WORK WITH OUR TEAMS</h4>
-                    <p>
+                    <div className="row">
 
-
-                    </p>
-                    <ul>
-                        <li><i className="fas fa-chevron-right" />Building Quality</li>
-                        <li><i className="fas fa-chevron-right" />Honest Advisor</li>
-                        <li><i className="fas fa-chevron-right" />24/week support</li>
-                        <li><i className="fas fa-chevron-right" />Performances Team</li>
-                        <li><i className="fas fa-chevron-right" />Work Solution</li>
-                        <li><i className="fas fa-chevron-right" />Work and Deadline </li>
-                    </ul>
-                    <Link to="/contact" className="button">GET START</Link>
+                        <div className="col-12">
+                            <ul>
+                                <li><i className="fas fa-chevron-right" />Building Quality</li>
+                                <li><i className="fas fa-chevron-right" />Honest Advisor</li>
+                                <li><i className="fas fa-chevron-right" />24/week support</li>
+                                <li><i className="fas fa-chevron-right" />Performances Team</li>
+                                <li><i className="fas fa-chevron-right" />Work Solution</li>
+                                <li><i className="fas fa-chevron-right" />Work and Deadline </li>
+                            </ul>
+                        </div>
+                        <div className="col-12 mt-3">
+                            <Link to="/contact" className="button">GET START</Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

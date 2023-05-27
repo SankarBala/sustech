@@ -99,6 +99,20 @@
                 margin-bottom: 15px;
             }
         }
+
+        .content {
+            .about-us {
+                width: 50%;
+            }
+
+            .contact-us {
+                width: 50%;
+            }
+
+            .useful-links {
+                width: 100%;
+            }
+        }
     }
 
     header {
@@ -223,7 +237,7 @@
         width: 40px;
         height: 53px;
         right: 25px;
-        margin: 0 20px;
+        margin: 10px;
         cursor: pointer;
         transition: .3s ease;
     }
@@ -255,4 +269,42 @@
     .projects {
         padding: 50px 10px;
     }
+}
+
+
+
+@media (max-width: 480px) {
+    // footer {
+
+    //     .content {
+    //         .about-us {
+    //             width: 25%;
+    //         }
+
+    //         .contact-us {
+    //             width: 25%;
+    //         }
+
+    //         .useful-links {
+    //             width: 40%;
+    //         }
+    //     }
+    // }
+
+    .services {
+        .content {
+            .card {
+                width: 100%;
+            }
+        }
+    }
+
+    .projects {
+        .content {
+            .card {
+                width: 100%;
+            }
+        }
+    }
+
 }
