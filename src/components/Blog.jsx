@@ -16,7 +16,7 @@ function Blog() {
       <div className="content">
         <div className="card revealLeft">
           <div className="card-img">
-            <img src={ProjectPic_1} />
+            <img src={ProjectPic_1} alt="project_pic" />
           </div>
           <div className="card-info">
             <h3>CONSTRUCTION TEAM</h3>
@@ -28,7 +28,7 @@ function Blog() {
         </div>
         <div className="card revealLeft">
           <div className="card-img">
-            <img src={ProjectPic_2} />
+            <img src={ProjectPic_2} alt="project_pic" />
           </div>
           <div className="card-info">
             <h3>PROJECT DEADLINE</h3>
@@ -40,7 +40,7 @@ function Blog() {
         </div>
         <div className="card revealRight">
           <div className="card-img">
-            <img src={ProjectPic_3} />
+            <img src={ProjectPic_3} alt="project_pic" />
           </div>
           <div className="card-info">
             <h3>CONSTRUCTION ACTIVITY</h3>
@@ -52,7 +52,7 @@ function Blog() {
         </div>
         <div className="card revealRight">
           <div className="card-img">
-            <img src={ProjectPic_4} />
+            <img src={ProjectPic_4} alt="project_pic" />
           </div>
           <div className="card-info">
             <h3>OUR BEST PROJECTS</h3>

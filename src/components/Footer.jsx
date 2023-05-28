@@ -33,16 +33,16 @@ function Footer() {
                     <h3 className="footer-h3">ABOUT US</h3>
                     <p> Your trusted partner for all your construction needs.</p>
                     <div className="icon">
-                        <a href="#">
+                        <a href="/">
                             <i className="fab fa-facebook-f" />
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <i className="fab fa-twitter" />
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <i className="fab fa-linkedin-in" />
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <i className="fab fa-google-plus-g" />
                         </a>
                     </div>
@@ -86,13 +86,14 @@ function Footer() {
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
+                            title="Location"
                         />
                     </div>
                 </div>
             </div>
 
             <a
-                href="#"
+                href="/"
                 onClick={() => scrollToTop()}
                 style={{ display: isVisible ? "flex" : "none" }}
                 className="to-top"
@@ -111,6 +112,7 @@ function Footer() {
                             className="text-info"
                             target="_blank"
                             href="https://sankarbala.github.io/"
+                            rel="noreferrer"
                         >
                             Sankar Bala
                         </a>

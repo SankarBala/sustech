@@ -34,31 +34,30 @@ const Slider = () => {
                             name="activeSlide"
                             id="radio1"
                             onChange={(slide) => setActiveSlide(slide.target.id)}
-                            checked={activeSlide == "radio1"}
+                            checked={activeSlide === "radio1"}
                         />
                         <input
                             type="radio"
                             name="activeSlide"
                             id="radio2"
                             onChange={(slide) => setActiveSlide(slide.target.id)}
-                            checked={activeSlide == "radio2"}
+                            checked={activeSlide === "radio2"}
                         />
                         <input
                             type="radio"
                             name="activeSlide"
                             id="radio3"
                             onChange={(slide) => setActiveSlide(slide.target.id)}
-                            checked={activeSlide == "radio3"}
+                            checked={activeSlide === "radio3"}
                         />
                         <div className="slide first">
-                            <img src={Banner1} />
-                        </div>
-
-                        <div className="slide">
-                            <img src={Banner2} />
+                            <img src={Banner1} alt="banner" />
                         </div>
                         <div className="slide">
-                            <img src={Banner3} />
+                            <img src={Banner2} alt="banner" />
+                        </div>
+                        <div className="slide">
+                            <img src={Banner3} alt="banner" />
                         </div>
                         <div className="navigation-auto">
                             <div className="auto-btn1" />

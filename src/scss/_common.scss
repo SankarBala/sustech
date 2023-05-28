@@ -103,7 +103,7 @@ header {
 		background-color: #075b72;
 
 		.col-right {
-			padding: 15px;
+			padding: 20px 15px;
 
 			a {
 				color: $color_3;
@@ -250,7 +250,7 @@ header {
 	}
 
 	.main-header.sticky {
-		background: #ddddddba;
+		background: #ffffff;
 		position: fixed;
 		z-index: 999;
 		width: 100%;
@@ -1182,7 +1182,7 @@ section.team-intro {
 }
 
 footer {
-	padding: 0 40px;
+	padding: 0px;
 	padding-top: 50px;
 	background: #333;
 	display: flex;
