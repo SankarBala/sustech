@@ -33,16 +33,20 @@ function Footer() {
                     <h3 className="footer-h3">ABOUT US</h3>
                     <p> Your trusted partner for all your construction needs.</p>
                     <div className="icon">
-                        <a href="/">
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.facebook.com/profile.php?id=100092655250914&mibextid=ZbWKwL"
+                        >
                             <i className="fab fa-facebook-f" />
                         </a>
-                        <a href="/">
+                        <a target="_blank" rel="noreferrer" href="/">
                             <i className="fab fa-twitter" />
                         </a>
-                        <a href="/">
+                        <a target="_blank" rel="noreferrer" href="/">
                             <i className="fab fa-linkedin-in" />
                         </a>
-                        <a href="/">
+                        <a target="_blank" rel="noreferrer" href="/">
                             <i className="fab fa-google-plus-g" />
                         </a>
                     </div>
@@ -69,7 +73,7 @@ function Footer() {
                     <div className="contacts">
                         <i className="fas fa-envelope" />
                         <span style={{ fontSize: 12 }}>
-                            mdshifuddin@yahoo.com
+                            info@msasts.com
                             <br />
                             shif2066@gmail.com
                         </span>
@@ -92,14 +96,13 @@ function Footer() {
                 </div>
             </div>
 
-            <a
-                href="/"
+            <button
                 onClick={() => scrollToTop()}
                 style={{ display: isVisible ? "flex" : "none" }}
-                className="to-top"
+                className="to-top cursor-pointer"
             >
                 <i className="fas fa-arrow-up" />
-            </a>
+            </button>
 
             <div className="copyright">
                 <div className="col-left">

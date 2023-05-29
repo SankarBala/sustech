@@ -36,17 +36,21 @@ function Header() {
                         </a>
                         <span>
                             <i className="fas fa-envelope" />
-                            Email: mdshifuddin@yahoo.com
+                            Email: shif2066@gmail.com
                         </span>
                     </div>
                     <div className="column col-right">
-                        <a href="/">
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100092655250914&mibextid=ZbWKwL"
+                        >
                             <i className="fab fa-facebook" />
                         </a>
-                        <a href="/">
+                        <a rel="noreferrer" target="_blank" href="/">
                             <i className="fab fa-twitter" />
                         </a>
-                        <a href="/">
+                        <a rel="noreferrer" target="_blank" href="/">
                             <i className="fab fa-linkedin" />
                         </a>
                     </div>
@@ -54,7 +58,7 @@ function Header() {
                 <div className="main-header">
                     <div className="column col-left">
                         <Link to="/">
-                            <img src={Logo} alt="logo" height="70px" />
+                            <img src={Logo} alt="logo" height="60px" />
                         </Link>
                     </div>
                     <div
@@ -63,7 +67,8 @@ function Header() {
                         onClick={toggleDropdown}
                     />
                     <div
-                        className={`column col-right menu text-info ${isOpen ? "active" : ""}`}
+                        className={`column col-right menu text-info ${isOpen ? "active" : ""
+                            }`}
                     >
                         <NavLink to="/" exact className="">
                             Home
