@@ -1,4 +1,6 @@
 import React from 'react';
+import Sabuj from './../images/sabuj.png';
+import Shif from './../images/shif.png';
 
 function About() {
     return (
@@ -18,7 +20,40 @@ function About() {
                     </div>
                 </div>
 
-                {/* <img src={Banner} alt="Your Image" className="img-fluid my-2" /> */}
+
+                <section className="partner">
+
+                    <div className="text_center">
+                        <div className="py-1">
+                            <h1 className="text-center text-danger">Partners</h1>
+                        </div>
+                        <div className="em_bar">
+                            <div className="em_bar_bg" />
+                        </div>
+                    </div>
+
+
+                    <div className="content ">
+                        <div className="card">
+                            <div className="partner-image">
+                                <img src={Sabuj} alt="sabuj" />
+                            </div>
+                            <div className="partner-info">
+                                <h3>MD SOBUJ</h3>
+                                <p>Director</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="partner-image">
+                                <img src={Shif} alt="sabuj" />
+                            </div>
+                            <div className="partner-info">
+                                <h3>MD SHIF UDDIN MAMUN</h3>
+                                <p>Managing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <p className="p-3 text-md text-justify">
                     Welcome to <span className="text-blue">MOHAMMED SHIF UDDIN & SOBUJ TECHNICAL SERVICES</span>, your trusted partner for all your construction needs.

@@ -1468,9 +1468,57 @@ footer {
 .text-justify {
 	text-align: justify;
 }
+
 .text-blue {
 	color: blue;
 }
-.text-md{
+
+.text-md {
 	font-size: 16px !important;
+}
+
+
+.partner {
+	padding: 100PX 10px;
+	background-color: #f7f7f7;
+
+	.content {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.card {
+			max-width: 280px;
+			padding: 3px;
+			background: rgb(235, 235, 235);
+			border-radius: 3px;
+			margin: 10px;
+			transition: .4s ease;
+			text-align: center;
+			border: 1px solid rgb(201, 201, 201);
+
+			.partner-image {
+				img {
+					width: 100%;
+				}
+			}
+
+			.partner-info {
+				h3 {
+					font-size: 20px;
+					color: rgb(19, 19, 19);
+					text-align: center;
+					margin: 12px 0 6px 0;
+				}
+
+				p {
+					font-size: 16px;
+					color: black;
+					text-align: center;
+					line-height: 19px;
+				}
+			}
+		}
+	}
 }

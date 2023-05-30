@@ -58,7 +58,7 @@ function Header() {
                 <div className="main-header">
                     <div className="column col-left">
                         <Link to="/">
-                            <img src={Logo} alt="logo" height="60px" />
+                            <img src={Logo} alt="logo" height="55px" />
                         </Link>
                     </div>
                     <div
