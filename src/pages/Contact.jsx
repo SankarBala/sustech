@@ -150,7 +150,7 @@ const Contact = () => {
               <div className="contacts">
                 <i className="fas fa-envelope" />
                 <span style={{ fontSize: 12 }}>
-                  mdshifuddin@yahoo.com
+                info@msasts.com
                   <br />
                   shif2066@gmail.com
                 </span>

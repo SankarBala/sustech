@@ -36,20 +36,20 @@ function About() {
                     <div className="content ">
                         <div className="card">
                             <div className="partner-image">
-                                <img src={Sabuj} alt="sabuj" />
-                            </div>
-                            <div className="partner-info">
-                                <h3>MD SOBUJ</h3>
-                                <p>Director</p>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="partner-image">
                                 <img src={Shif} alt="sabuj" />
                             </div>
                             <div className="partner-info">
                                 <h3>MD SHIF UDDIN MAMUN</h3>
                                 <p>Managing Director</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="partner-image">
+                                <img src={Sabuj} alt="sabuj" />
+                            </div>
+                            <div className="partner-info">
+                                <h3>MD SOBUJ</h3>
+                                <p>Director</p>
                             </div>
                         </div>
                     </div>
