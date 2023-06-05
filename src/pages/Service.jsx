@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
@@ -32,6 +33,7 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
             <div className="card reveal">
@@ -44,6 +46,7 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
             <div className="card reveal">
@@ -56,6 +59,7 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
 
@@ -71,6 +75,7 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
 
@@ -86,10 +91,9 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
-
-
 
             <div className="card reveal">
               <div className="service-icon">
@@ -101,6 +105,7 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
 
@@ -114,6 +119,7 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
 
@@ -127,6 +133,7 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
 
@@ -140,6 +147,7 @@ const Service = () => {
                   Mauris mattis auctor cursus. Phasellus tellus tellus
                   ,imperdiet ut
                 </p>
+                <Link to="/contact">Book Now</Link>
               </div>
             </div>
           </div>
