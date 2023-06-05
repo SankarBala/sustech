@@ -9,10 +9,9 @@ function Work() {
                 <div className=" col-left p-2 revealLeft">
                     <img src={WorkImage} alt="working" />
                 </div>
-                <div className="col-right px-4 ">
-                    <h4>WORK WITH OUR TEAMS</h4>
+                <div className="col-right px-4 d-flex align-items-center">
                     <div className="row">
-
+                        <h4>WORK WITH OUR TEAMS</h4>
                         <div className="col-12">
                             <ul>
                                 <li><i className="fas fa-chevron-right" />Building Quality</li>

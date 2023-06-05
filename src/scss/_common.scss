@@ -424,11 +424,11 @@ section {
 			padding: 51px 50px;
 			border-radius: 10px;
 			transition: .2s ease;
-			background: #00000080;
+			background: #00000014;
+			backdrop-filter: blur(6px);
 
 			&:hover {
-				backdrop-filter: blur(100px);
-				background: #000000;
+				backdrop-filter: blur(15px);
 			}
 
 			h1 {
@@ -478,8 +478,8 @@ section {
 		justify-content: center;
 
 		.card {
-			width: 200px;
-			padding: 8px;
+			width: 220px;
+			padding: 15px 20px;
 			background: #fff;
 			border-radius: 3px;
 			box-shadow: 0px 0px 70px -20px rgba(4, 107, 175, 0.6);
@@ -487,6 +487,7 @@ section {
 			transition: .4s ease;
 			cursor: pointer;
 			text-align: center;
+			font-family: popin;
 
 			&:hover {
 				background: linear-gradient(skyblue, #0878ac);
@@ -500,8 +501,8 @@ section {
 						color: $color_4;
 					}
 
-					h3 {
-						color: $color_10;
+					h5:hover {
+						color: white !important;
 					}
 
 					a {
@@ -1477,7 +1478,12 @@ footer {
 	font-size: 16px !important;
 }
 
-
+.all-service-button {
+	padding: 2px 10px;
+	margin: auto;
+	background-color: #0072b1;
+	color: white;
+}
 .partner {
 	padding: 100PX 10px;
 	background-color: #f7f7f7;

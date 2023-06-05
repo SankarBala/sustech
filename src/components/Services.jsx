@@ -14,7 +14,7 @@ function Services() {
                     <div className="service-info">
                         <h5>AC DUCTING FIXING AND MAINTENANCE</h5>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
-                        <Link to="/service">All Services</Link>
+                        <Link to="/contact">Book Now</Link>
                     </div>
                 </div>
                 <div className="card card-second reveal">
@@ -24,7 +24,7 @@ function Services() {
                     <div className="service-info">
                         <h5>PLUMBING & SANITARY SERVICES</h5>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
-                        <Link to="/service">All Services</Link>
+                        <Link to="/contact">Book Now</Link>
                     </div>
                 </div>
                 <div className="card reveal">
@@ -34,7 +34,7 @@ function Services() {
                     <div className="service-info">
                         <h5>CARPENTRY & FLOORING SERVICES</h5>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
-                        <Link to="/service">All Services</Link>
+                        <Link to="/contact">Book Now</Link>
                     </div>
                 </div>
                 <div className="card reveal">
@@ -44,10 +44,9 @@ function Services() {
                     <div className="service-info">
                         <h5>PAINTING CONTRACTING</h5>
                         <p>Mauris mattis auctor cursus. Phasellus tellus tellus ,imperdiet ut</p>
-                        <Link to="/service">All Services</Link>
+                        <Link to="/contact">Book Now</Link>
                     </div>
                 </div>
-
                 <div className="card reveal">
                     <div className="service-icon">
                         <i className="fas fa-sleigh" />
@@ -58,6 +57,7 @@ function Services() {
                             Mauris mattis auctor cursus. Phasellus tellus tellus
                             ,imperdiet ut
                         </p>
+                        <Link to="/contact">Book Now</Link>
                     </div>
                 </div>
                 <div className="card reveal">
@@ -72,8 +72,12 @@ function Services() {
                             Mauris mattis auctor cursus. Phasellus tellus tellus
                             ,imperdiet ut
                         </p>
+                        <Link to="/contact">Book Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="d-flex justify-content-center pt-5">
+            <Link class="all-service-button" to="/service">View All Services</Link>
             </div>
         </section>
     )
